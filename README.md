@@ -9,7 +9,11 @@ A document can be updated by sending a PUT request with document contents to /st
 
 A document can be deleted by sending a DELETE request with no content to /storage/documents/{docId}, where {docId} is the document ID issued during creation. On success, a 204 No Content HTTP response is sent. A 404 Not Found HTTP response is returned if the document ID is invalid.
 
+# Rest API
 Create - POST /storage/documents
+
 Read - GET /storage/documents/{docId} 
+
 Update - PUT /storage/documents/{docId} 
+
 Delete - DELETE /storage/documents/{docId}
